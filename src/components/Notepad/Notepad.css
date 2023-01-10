@@ -1,0 +1,16 @@
+form {
+    text-align: center;
+}
+
+ul li {
+    text-align: center;
+    list-style: none;
+}
+
+form input {
+    margin-bottom: 10px;
+}
+
+ul button {
+    margin: 5px;
+}
