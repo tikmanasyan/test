@@ -9,6 +9,7 @@ import Posts from './components/Posts/Posts';
 import Categories from './components/Categories/Categories';
 import Notepad from './components/Notepad/Notepad';
 import Notepad2 from './components/Notepad2/Notepad2';
+import Timer from './components/Sevada/Timer';
 
 //Component@ funkcia e vor@ veradarcnum e JSX karucvacq
 
@@ -188,6 +189,7 @@ const App = () => {
           <Route path='/categories' element={<Categories />} /> 
           <Route path='/notepad' element={<Notepad />} /> 
           <Route path='/notepad2' element={<Notepad2 /> } /> 
+          <Route path='/timer' element={<Timer />} />
           <Route path='*' element={<h1>Error 404</h1>} /> 
         </Routes>
 
