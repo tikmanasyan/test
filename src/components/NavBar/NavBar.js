@@ -5,8 +5,6 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 const NavBar = () => {
     return (
-
-
         <Navbar bg="light" expand="lg">
       <Container>
         <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
@@ -22,6 +20,7 @@ const NavBar = () => {
             <NavLink className='nav-link' to='/categories'>Categories</NavLink>   
             <NavLink className='nav-link' to='/notepad'>Notes</NavLink>   
             <NavLink className='nav-link' to='/notepad2'>Notes2</NavLink>   
+            <NavLink className='nav-link' to='/timer'>Timer</NavLink>   
           </Nav>
         </Navbar.Collapse>
       </Container>
