@@ -9,8 +9,8 @@ import Posts from './components/Posts/Posts';
 import Categories from './components/Categories/Categories';
 import Notepad from './components/Notepad/Notepad';
 import Notepad2 from './components/Notepad2/Notepad2';
-import Timer from './components/Sevada/Timer';
-
+// import Timer from './components/Sevada/Timer';
+import Timer from './components/Timer/Timer';
 //Component@ funkcia e vor@ veradarcnum e JSX karucvacq
 
 // function App() {
